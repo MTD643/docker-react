@@ -8,9 +8,10 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Hi Lunden!
+          This is a simple React.js web application running inside of a Docker 
+          container on an AWS server in Ohio, using Jest for testing, Git for 
+          version control and Travis for continuous integration-continuous deployment.
         </p>
-        <p>New feature branch added.</p>
       </header>
     </div>
   );
