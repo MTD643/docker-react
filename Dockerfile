@@ -14,6 +14,7 @@ RUN npm run build
 #files live in: /app/build
 
 FROM nginx
+EXPOSE 80
 #--from references a different phase
 COPY --from=builder /app/build /usr/share/nginx/html
 
